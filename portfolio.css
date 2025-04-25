@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+background-color: white;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+min-height: 100vh;
+font-family: "Roboto", sans-serif;
+}
+nav{
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+a{
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h2{
+  color: blueviolet;
+}
+i{
+  color: blueviolet;
+  padding: 10px;
+
+}
+.Hero{
+  background-color: rgba(137, 43, 226, 0.174);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10rem;
+  height: 100vh;
+}
+.name1{
+  color: black;
+
+}
+.about{
+  color: blueviolet;
+}
+p{
+  color: rgba(0, 0, 0, 0.571);
+  
+}
+.bnt1{
+  background-color: blueviolet;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+  
+}
+img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+ 
+}
+.text2{
+  text-align: center;
+}
+.skill{
+  background-color: rgba(128, 128, 128, 0.274);
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 1rem;
+ 
+
+}
+.skillset{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+i{
+  font-size: 2rem;
+}
+.project{
+  background-color: rgba(137, 43, 226, 0.575);
+  color: black;
+}
+span{
+  background-color: blueviolet;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 20px;
+}
+.about{
+  background-color: rgba(128, 128, 128, 0.368);
+  color: black;
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 1rem;
+  text-align: center;
+}
